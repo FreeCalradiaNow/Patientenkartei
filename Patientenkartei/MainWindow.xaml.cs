@@ -18,7 +18,7 @@ namespace Patientenkartei
         {
             string content = textBoxContent.Text;
             string filename = textBoxFileName.Text;
-
+            
 
             using (FileStream fs = File.Create(filename + ".txt"))
             {
@@ -26,6 +26,13 @@ namespace Patientenkartei
                 fs.Write(contentconvertedToBytes, 0, contentconvertedToBytes.Length);
 
             }
+
+            MessageBox.Show("Datei wurde angelegt.");
+        }
+
+        private void btnOpen_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

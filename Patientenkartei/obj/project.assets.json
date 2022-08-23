@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\TrainingGIT\\Patientenkartei\\Patientenkartei.csproj",
+      "projectUniqueName": "F:\\TrainingGIT\\Patientenkartei\\Patientenkartei\\Patientenkartei.csproj",
       "projectName": "Patientenkartei",
-      "projectPath": "F:\\TrainingGIT\\Patientenkartei\\Patientenkartei.csproj",
+      "projectPath": "F:\\TrainingGIT\\Patientenkartei\\Patientenkartei\\Patientenkartei.csproj",
       "packagesPath": "C:\\Users\\M.Witzik\\.nuget\\packages\\",
-      "outputPath": "F:\\TrainingGIT\\Patientenkartei\\obj\\",
+      "outputPath": "F:\\TrainingGIT\\Patientenkartei\\Patientenkartei\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\M.Witzik\\AppData\\Roaming\\NuGet\\NuGet.Config",

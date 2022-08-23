@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E6WzHL691buj05fZ+jzswsA5MLabhZBhs9OTUvrbZCTAiwxEiiQLHeytqJShloXRFcuEqB8/GpzQ0VSfPOQWLQ==",
+  "dgSpecHash": "wGsQ+o1eyIVMwKsT9eERIZqa9Y+/5uAG7L7kGH8LhV6HM+IRHWEILABOPb1k4pim6fFIRgGGblxKKJV69iBtCQ==",
   "success": true,
-  "projectFilePath": "F:\\TrainingGIT\\Patientenkartei\\Patientenkartei.csproj",
+  "projectFilePath": "F:\\TrainingGIT\\Patientenkartei\\Patientenkartei\\Patientenkartei.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -9,6 +9,8 @@ namespace Patientenkartei
     /// </summary>
     public partial class MainWindow : Window
     {
+        public const string DIR_PATH = @"F:\TrainingGIT Tests\Patientenkartei\test\";
+        public const string FILE_ENDING = ".txt";
         public MainWindow()
         {
             InitializeComponent();
@@ -19,8 +21,9 @@ namespace Patientenkartei
             string content = textBoxContent.Text;
             string filename = textBoxFileName.Text;
             
+            
 
-            using (FileStream fs = File.Create(filename + ".txt"))
+            using (FileStream fs = File.Create(DIR_PATH + filename + FILE_ENDING))
             {
                 byte[] contentconvertedToBytes = Encoding.ASCII.GetBytes(content);
                 fs.Write(contentconvertedToBytes, 0, contentconvertedToBytes.Length);
@@ -32,7 +35,16 @@ namespace Patientenkartei
 
         private void btnOpen_Click(object sender, RoutedEventArgs e)
         {
+            string filename = textBoxFileName.Text;
 
+            using (FileStream fs = File.OpenRead(DIR_PATH + filename + FILE_ENDING))
+            {
+                using(StreamReader sr = new StreamReader(fs))
+                {
+                    string content = sr.ReadToEnd();
+                    textBoxContent.Text = content;
+                }
+            }
         }
     }
 }
